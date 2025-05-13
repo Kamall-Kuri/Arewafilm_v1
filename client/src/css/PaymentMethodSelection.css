@@ -1,0 +1,119 @@
+.payment-method-container {
+    background-color: var(--background-color);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 2rem;
+    animation: fadeIn 0.3s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .payment-method-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+
+  .movie-summary {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .movie-summary img{
+    height: 4rem;
+    border-radius: 8px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .payment-method:hover {
+    border-color: #aaa;
+    background-color: #f9f9f9;
+  }
+  
+  .payment-method.selected {
+    border-color: #e50914;
+    background-color: #fff0f0;
+  }
+  
+  .payment-method-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    width: 40px;
+    text-align: center;
+  }
+  
+  .payment-method-details h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .payment-method-details p {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .method-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .continue-btn,
+  .cancel-btn {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .continue-btn {
+    background-color: #e50914;
+    color: white;
+  }
+  
+  .continue-btn:hover {
+    background-color: #c70812;
+  }
+  
+  .cancel-btn {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #ccc;
+  }
+  

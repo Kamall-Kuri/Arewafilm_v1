@@ -1,0 +1,150 @@
+.download-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .download-content {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .download-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .movie-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .details p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+  }
+  
+  .download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .download-btn {
+    padding: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .download-btn:hover {
+    background-color: #c70812;
+  }
+  
+  .download-instructions {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .download-instructions h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .download-instructions ol {
+    padding-left: 1.5rem;
+  }
+  
+  .download-instructions li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .back-btn:hover {
+    background-color: #555;
+  }
+
+  .no-movie-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .no-movie-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .no-movie-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .movie-details {
+      flex-direction: row;
+    }
+  
+    .movie-details img {
+      width: 320px;
+      height: 180px;
+      object-fit: cover;
+    }
+  
+    .details {
+      flex: 1;
+    }
+  
+    .download-buttons {
+      flex-direction: row;
+    }
+  
+    .download-btn {
+      flex: 1;
+    }
+  }
+  

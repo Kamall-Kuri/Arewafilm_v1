@@ -1,0 +1,45 @@
+.navbar {
+    background-color: var(--background-color);
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+  
+  .dub-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 5px 0;
+  }
+  
+  .dub-item {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 14px;
+  }
+  
+  .dub-item:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .dub-item.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Hide scrollbar but allow scrolling */
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .navbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  

@@ -1,0 +1,40 @@
+.notfound-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .notfound-content {
+    max-width: 500px;
+  }
+  
+  .notfound-content h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color: #ffcc00;
+  }
+  
+  .notfound-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .back-home-btn {
+    background-color: #ffcc00;
+    color: #111;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .back-home-btn:hover {
+    background-color: #e6b800;
+  }
+  
